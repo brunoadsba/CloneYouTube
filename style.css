@@ -85,8 +85,6 @@ nav{
     margin: 10px 0;
 }
 
-
-
 .shortcut-links a img{
     width: 22px;
     margin-right: 8px;
@@ -108,7 +106,6 @@ nav{
 .shortcut-links a:first-child{
     color: #ed3833;
     margin-top: 70px;
-
 }
 
 .subscribed-list h3{
@@ -123,7 +120,6 @@ nav{
     align-items: center;
     margin-bottom: 10px;
     padding-left: 0px;
-  
 }
 
 .subscribed-list a img{
@@ -145,7 +141,6 @@ nav{
 
 .small-sidebar {
     width: 5%;
-   
 }
 
 .small-sidebar a p{
@@ -198,7 +193,7 @@ nav{
 }
 
 .foto{
-    width: 60%;
+    width: 50%;
     height: 60%;
 }
 
@@ -208,11 +203,21 @@ nav{
     margin-top: 7px;
 }
 
+
 .vid-list .flex-div img{
     width: 35px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-left: 15px;
 }
+
+.vid-list iframe{
+    width: 100%;
+    height: 365px;
+    border-radius: 1.5%;
+    margin-left: 10px;
+}
+
 
 .vid-info {
     color: #5a5a5a;
@@ -254,10 +259,7 @@ nav{
         width: 90px;
     }
 }
-
 /* _______________ play video page____________ */
-
-
 
 .play-container{
     padding-left: 2%;
@@ -370,14 +372,12 @@ nav{
     outline: 0;
     border-radius: 4px;
     cursor: pointer;
-
 }
 
 .vid-description{
     padding-left: 55px;
     margin: 15px 0;
 }
-
 .vid-description p{
     font-size: 14px;
     margin-bottom: 5px;
@@ -470,7 +470,24 @@ nav{
         margin-left: 0;
         margin-right: 15px;
         margin-top: 15px;
-
     }
+
+    .vid-list iframe{
+        width: 100%;
+        height: 150px;
+    }
+
+    .vid-list {
+     padding: 0%;
+     margin-right: 40px;
+     margin-left: 10px;
+    }
+    .foto{
+        width: 50%;
+        height: 50%;
+        margin-right: 40px;
+        margin-left: 15px;
+    }
+    
 
 }
